@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    /* background: linear-gradient(90deg, #0d2333, #040a0f); */
+}
+
+.navbar {
+    background-color: #e0b3ff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.Center ul {
+    display: flex;
+}
+
+.Center ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.Center ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 1rem;
+}
+
+.Center ul li a:hover {
+
+    background-color: #ccf2ff;
+
+}
+
+.btn{
+    background-color: #a366ff;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.sec-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 2rem;
+  
+   
+}
+
+.home-txt{
+width: 30%;
+    /* background-color: red; */
+
+}
+
+.home-txt h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.sec-2{
+    margin-top: 1rem;
+}
+
+.sec-2-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
